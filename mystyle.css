@@ -53,6 +53,7 @@ body
 	right: 0;
 	top: 0;
 	z-index: -1;
+	
 }
 
 .skill-coloum {
@@ -70,7 +71,7 @@ body
   cursor: pointer;
 }
 
-.skill-coloum :hover {opacity: 0.8}
+
 .skill-img{
 height: 50px;
 width: 50px;
@@ -78,9 +79,14 @@ width: 50px;
 .skill-wraps{
 	width: 90%;
 	margin-left:3rem;
+	display: flex;
+	justify-content: space-between;
 }
 .skill-coloum p{
 	font-weight: bold;
+}
+#skills{
+	margin-bottom: 7rem;
 }
 
 /* KEYFRAMES */
@@ -415,6 +421,9 @@ width: 50px;
   #professionalexperience{
 	margin-bottom: 7rem;
 	
+}
+#projects{
+	margin-bottom: 7rem;
 }
 
 .projects-outer-box{
