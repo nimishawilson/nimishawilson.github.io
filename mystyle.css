@@ -1,7 +1,7 @@
 body
 {
     color: white; 
-    background-image: linear-gradient(90deg, #13547a, #80d0c7); /* aqua splash */
+    background-image:linear-gradient(100deg, #137a20, #cddc39); 
 }
 .container{
     height: 300px;
@@ -409,7 +409,7 @@ body
 	padding-top: 10px;
 	padding-bottom: 5px;
 	border-radius: 20px;
-	box-shadow: 10px 5px 5px #13547a;
+	box-shadow: 10px 5px 5px #086914;
 }
 
 .inner-project-box{
