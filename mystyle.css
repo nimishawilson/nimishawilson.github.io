@@ -40,10 +40,7 @@ body
     opacity: 0.7;
 }
 
-.projectname{
-	
-	font-weight: bold;
-}
+
 
 
 #background-wrap {
@@ -440,14 +437,13 @@ width: 50px;
 	flex-basis: 30%;
 	background-color: white;
 	color: black;
-	border: 1px solid black;
 	margin-top: 1rem;
 	display: flex;
 	justify-content: center;
 	padding-top: 10px;
 	padding-bottom: 5px;
 	border-radius: 4px;
-	box-shadow: 10px 5px 5px #086914;
+	
 }
 
 .inner-project-box{
