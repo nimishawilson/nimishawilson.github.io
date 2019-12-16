@@ -57,9 +57,10 @@ body
 }
 
 .skill-coloum {
-  background-image: linear-gradient(120deg, #cddc39, #1a6524);
+  /* background-image: linear-gradient(120deg, #cddc39, #1a6524); */
+  background-color: white;
   border: none;
-  color: white;
+  color: rgb(2, 0, 0);
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
