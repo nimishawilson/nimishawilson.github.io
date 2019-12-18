@@ -41,7 +41,27 @@ body
 }
 
 
-
+.btnprojects {
+	background-color: #4d9c25;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 5px 0px 5px 0px;
+	min-width: 149px;
+    font-size: 16px;
+  }
+  .btnprojects:hover {
+	background-color: #74b22a;
+  }
+  .butnbox{
+	display: flex;
+	justify-content: space-between;
+}
+.removepad-margin{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	font-size: 18px;
+}
 
 #background-wrap {
     bottom: 0;
@@ -450,6 +470,7 @@ width: 50px;
 	width: 90%;
 	
 }
+
 .prjctpic{
 	height: 100px;
 	width: 100px;
