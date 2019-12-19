@@ -90,6 +90,9 @@ body
 	flex-direction: column;
 	
 }
+#contact{
+	margin-bottom: 3rem;
+}
 .btnalign{
 	display: flex;
 	flex-direction: row;
