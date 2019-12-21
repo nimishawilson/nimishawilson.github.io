@@ -70,7 +70,7 @@ body
 	margin: 0.5em; 
 }
 .profileimage:hover{
-	outline-width: 10px;
+	box-shadow: 0 4px 8px 0 #0d6318, 0 6px 20px 0 #0d6318;
 }
 #background-wrap {
     bottom: 0;
