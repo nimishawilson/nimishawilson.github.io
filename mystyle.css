@@ -649,6 +649,7 @@ width: 50px;
 		display: flex;
 		flex-direction:row;
 		justify-content:flex-end;
+		margin-right: 2rem;
 	   }
    .heading{
 		margin-left: 8rem;
