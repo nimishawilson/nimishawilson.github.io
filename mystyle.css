@@ -4,7 +4,7 @@ body
     background-image:linear-gradient(100deg, #137a20, #cddc39); 
 }
 .container{
-    height: 300px;
+    height: 260px;
     display: flex;
   align-items: center;
   justify-content: center;
@@ -68,9 +68,11 @@ body
 	outline: solid 1px white;
 	transition: outline 0.6s linear;
 	margin: 0.5em; 
+	
 }
 .profileimage:hover{
 	box-shadow: 0 4px 8px 0 #0d6318, 0 6px 20px 0 #0d6318;
+	
 }
 #background-wrap {
     bottom: 0;
