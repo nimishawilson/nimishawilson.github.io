@@ -54,6 +54,7 @@ body
 	background-color: #74b22a;
   }
   .butnbox{
+	  margin-top: 7px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -187,6 +188,17 @@ width: 50px;
 }
 #skills{
 	margin-bottom: 7rem;
+}
+
+.languagebadge{
+	background-color: #cddc39;
+	color:black;
+	border: 1px solid #cddc39;
+	padding: 3px;
+	border-radius: 4px;
+	font-size: 12px;
+	margin-right: 3px;
+	
 }
 
 /* KEYFRAMES */
@@ -554,8 +566,8 @@ width: 50px;
 }
 
 .prjctpic{
-	height: 100px;
-	width: 100px;
+	height: 12rem;
+	width: 100%;
 }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
