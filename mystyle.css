@@ -559,6 +559,9 @@ width: 50px;
 	border-radius: 4px;
 	
 }
+.descandbadges{
+	min-height: 190px;
+}
 
 .inner-project-box{
 	width: 90%;
