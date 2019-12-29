@@ -198,6 +198,8 @@ width: 50px;
 	border-radius: 4px;
 	font-size: 12px;
 	margin-right: 3px;
+	display: inline-block;
+    margin-top: 3px;
 	
 }
 
