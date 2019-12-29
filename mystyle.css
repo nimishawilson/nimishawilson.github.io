@@ -48,7 +48,8 @@ body
 	cursor: pointer;
 	padding: 5px 13px 5px 12px;
 	min-width: 149px;
-    font-size: 16px;
+	font-size: 16px;
+	border-radius: 4px;
   }
   .btnprojects:hover {
 	background-color: #74b22a;
@@ -167,6 +168,7 @@ body
   text-decoration: none;
   cursor: pointer;
   min-width: 200px;
+  border-radius: 4px;
 }
 
 
