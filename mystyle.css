@@ -66,15 +66,11 @@ body
 .profileimage{
 	height: 220px;
 	width: 220px;
-	outline: solid 1px white;
-	transition: outline 0.6s linear;
 	margin: 0.5em; 
-	
-}
-.profileimage:hover{
 	box-shadow: 0 4px 8px 0 #0d6318, 0 6px 20px 0 #0d6318;
 	
 }
+
 #background-wrap {
     bottom: 0;
 	left: 0;
