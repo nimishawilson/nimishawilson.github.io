@@ -569,8 +569,12 @@ width: 50px;
 }
 
 .prjctpic{
-	height: 12rem;
+	height: auto;
 	width: 100%;
+}
+
+.projectpiccontainer{
+min-height: 171px;
 }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
