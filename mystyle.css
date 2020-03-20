@@ -122,6 +122,9 @@ body
 .ininetextbox{
 	padding-bottom: 3rem;
 }
+.skill-link {
+	text-decoration: none;
+}
 
 .button {
   background-color: #3b843e;
