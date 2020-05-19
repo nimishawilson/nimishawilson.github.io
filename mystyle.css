@@ -631,31 +631,31 @@ body {
 }
 
 .semi-transparent-button {
-	display: block;
-	box-sizing: border-box;
-	margin: 0 auto;
-	padding: 8px;
-	width: 80%;
-	max-width: 200px;
-	background: #fff; /* fallback color for old browsers */
-	background: rgba(255, 255, 255, 0.5);
-	border-radius: 8px;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-	letter-spacing: 1px;
-	transition: all 0.3s ease-out;
-  }
-  .semi-transparent-button:hover,
-  .semi-transparent-button:focus,
-  .semi-transparent-button:active {
-	background: #fff;
-	color: #000;
-	transition: all 0.5s ease-in;
-  }
-  .semi-transparent:focus {
-	outline: none;
-  }
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; /* fallback color for old browsers */
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+}
+.semi-transparent-button:hover,
+.semi-transparent-button:focus,
+.semi-transparent-button:active {
+  background: #fff;
+  color: #000;
+  transition: all 0.5s ease-in;
+}
+.semi-transparent:focus {
+  outline: none;
+}
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
@@ -705,6 +705,18 @@ body {
     justify-content: space-between;
     flex-direction: column;
   }
+  .container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .description {
+    width: 100%;
+    padding: 5px;
+  }
+  .profileimage {
+    margin: 0.5em auto;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -720,6 +732,18 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+  }
+  .container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .description {
+    width: 100%;
+    padding: 5px;
+  }
+  .profileimage {
+    margin: 0.5em auto;
   }
 }
 
